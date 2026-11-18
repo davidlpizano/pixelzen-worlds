@@ -1555,6 +1555,22 @@ def _michis_bloqueo_post(ctx):
 
 
 # =====================================================================
+# 17. SALÓN DE NOAH Y MAGGIE (principal, secundario, bloqueo)
+# =====================================================================
+
+def _salon_principal_post(ctx):
+    _sparks(ctx, 118, 178, 28, 16, 6, '#fde68a', '#93c5fd', seed=1712, runa_stride=4)
+
+
+def _salon_secundario_post(ctx):
+    _sparks(ctx, 290, 96, 26, 18, 8, '#fef08a', '#fde68a', seed=1721, runa_stride=3)
+
+
+def _salon_bloqueo_post(ctx):
+    _sparks(ctx, 240, 42, 64, 10, 8, '#fef08a', '#fbbf24', seed=1731, runa_stride=3)
+
+
+# =====================================================================
 # TABLA DE DESPACHO PARA LAS ESCENAS
 # =====================================================================
 
@@ -1624,6 +1640,9 @@ _POST_ESCENA = {
     ('terraza-michis', 'principal'): _michis_principal_post,
     ('terraza-michis', 'secundario'): _michis_secundario_post,
     ('terraza-michis', 'bloqueo'): _michis_bloqueo_post,
+    ('salon-noah-maggie', 'principal'): _salon_principal_post,
+    ('salon-noah-maggie', 'secundario'): _salon_secundario_post,
+    ('salon-noah-maggie', 'bloqueo'): _salon_bloqueo_post,
 }
 
 

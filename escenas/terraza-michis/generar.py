@@ -260,39 +260,12 @@ for dy in range(-9, 10):
                 col = mix(col, '#ffffff', 0.25)
             put(126 + dx, 300 + dy, col)
 
-# 8 y 9. Sprites pixel-art artesanales de ambos michis (escala 2x2 nitida)
+# 8 y 9. Sprites pixel-art detallados de ambos michis (escala nativa 1x1)
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from michis_sprites import SPR_CREAM_BELLYUP, SPR_GRAY_LOUNGE, draw_sprite_2x  # noqa: E402
+from michis_sprites import SPR_CREAM_BELLYUP, SPR_GRAY_LOUNGE, draw_sprite_1x  # noqa: E402
 
-c_dk, c_md, c_sh, c_hi, c_wh, c_whs, c_pink, c_eye = PAL['cream_cat']
-CMAP_CREAM = {
-    'k': mix(c_sh, '#1a120e', 0.45),
-    'd': c_dk,
-    'm': c_md,
-    'h': c_hi,
-    'W': c_wh,
-    'w': c_whs,
-    'p': c_pink,
-    'e': c_eye,
-}
-draw_sprite_2x(lz, 198, 372, SPR_CREAM_BELLYUP, CMAP_CREAM)
-
-g1, g2, g0, g3, gw, gws, ge1, ge2, gpk = PAL['gray_cat']
-CMAP_GRAY = {
-    'K': '#14171d',
-    'G': g0,
-    'g': g1,
-    'l': g2,
-    'L': g3,
-    'W': gw,
-    'w': gws,
-    'A': ge1,
-    'a': ge2,
-    'P': '#0f172a',
-    'p': gpk,
-    'b': '#1e1b18',
-}
-draw_sprite_2x(lz, 360, 344, SPR_GRAY_LOUNGE, CMAP_GRAY)
+draw_sprite_1x(lz, 214, 388, SPR_CREAM_BELLYUP, fase=FASE)
+draw_sprite_1x(lz, 356, 362, SPR_GRAY_LOUNGE, fase=FASE)
 
 # Detalles adicionales y registro de luces
 try:

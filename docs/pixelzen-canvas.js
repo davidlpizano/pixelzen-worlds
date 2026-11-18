@@ -735,6 +735,7 @@
       'dragon-ball-z': ['#38bdf8', '#facc15', 'rgba(56, 189, 248, 0.42)'],
       'cyberpunk-edgerunners': ['#facc15', '#22d3ee', 'rgba(250, 204, 21, 0.42)'],
       'terraza-michis': ['#72c48c', '#facc15', 'rgba(114, 196, 140, 0.38)'],
+      'salon-noah-maggie': ['#fbbf24', '#4ade80', 'rgba(251, 191, 36, 0.38)'],
     };
 
     const WORLD_AUDIO = {
@@ -754,6 +755,7 @@
       'dragon-ball-z': ['Ultimate Battle · UI OST', '145 BPM · ROCK SINFÓNICO', 'VOL 88%'],
       'cyberpunk-edgerunners': ['I Really Want to Stay · OST', '124 BPM · SYNTHWAVE', 'VOL 84%'],
       'terraza-michis': ['Purr & Sunbeam · Terrace Mix', '76 BPM · PURR LO-FI', 'VOL 72%'],
+      'salon-noah-maggie': ['Noah & Maggie · Cozy Living', '72 BPM · LIVING LO-FI', 'VOL 70%'],
     };
 
     function detectarGpu() {

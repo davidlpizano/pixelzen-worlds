@@ -165,6 +165,16 @@
       m3: { name: 'Santuario de la Pelotita', sub: 'Altar del Cojín · Siesta Nocturna Juntos', desc: 'La pelotita multicolor reposando sobre el cojín oscuro rodeada de huellitas luminosas junto al farol cálido, con ambos michis descansando acurrucados bajo las estrellas.' },
       cita: '«La felicidad es un rayo de sol sobre el césped verde y un buen ronroneo sin prisas.» — Terraza de los Michis',
     },
+    {
+      id: 'salon-noah-maggie',
+      serie: 'Vida Zen · Mascotas',
+      cat: 'zen',
+      titulo: 'Salón de Noah y Maggie',
+      m1: { name: 'Noche de Breaking Bad', sub: 'Maggie con Patita Colgando & Noah Panecillo', desc: 'Salón acogedor con ventanal animado, tele reproduciendo Breaking Bad y Maggie estirada sobre el mueble con su patita blanca colgando junto a Noah.' },
+      m2: { name: 'Rincón del Miró', sub: 'Posado Oficial en el Mueble Blanco', desc: 'Junto al cuadro de Miró y la lamparita de pinza, Noah entrecierra los ojos con su expresión seria y Maggie posa erguida con sus ojazos ámbar.' },
+      m3: { name: 'Cojín de la Siesta', sub: 'Cojín de Rombos & Barriguita al Sol', desc: 'Noah hecha un bollito perfecto sobre el cojín crema tejido y Maggie estirada panza arriba bajo las luces cálidas del ventanal.' },
+      cita: '«La mejor postura para ver Breaking Bad es con una patita blanca colgando del borde.» — Maggie',
+    },
   ];
 
   const STAT_KEYS = ['tiempo', 'clima', 'sistema', 'gpu', 'red', 'audio', 'dev', 'foco', 'grimorio'];

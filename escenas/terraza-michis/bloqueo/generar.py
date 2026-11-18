@@ -190,33 +190,11 @@ for dy in range(-12, 13):
 glow(320, 312, 18, '#fde047', 0.22 if FASE != 'dia' else 0.08)
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-from michis_sprites import SPR_CREAM_SLEEP, SPR_GRAY_SLEEP, draw_sprite_2x  # noqa: E402
+from michis_sprites import SPR_CREAM_SLEEP, SPR_GRAY_SLEEP, draw_sprite_1x  # noqa: E402
 
 # Ambos michis acurrucados durmiendo juntos a ambos lados del cojín
-cm0, cm1, cm2, cm3, cmw, cmws, cmpk, cmeye = PAL['cream_cat']
-CMAP_CREAM = {
-    'k': mix(cm2, '#1a120e', 0.45),
-    'd': cm0,
-    'm': cm1,
-    'h': cm3,
-    'W': cmw,
-    'w': cmws,
-    'p': cmpk,
-}
-draw_sprite_2x(lz, 240, 326, SPR_CREAM_SLEEP, CMAP_CREAM)
-
-g1, g2, g0, g3, gw, gws, ge1, gpk = PAL['gray_cat']
-CMAP_GRAY = {
-    'K': '#14171d',
-    'G': g0,
-    'g': g1,
-    'l': g2,
-    'L': g3,
-    'W': gw,
-    'w': gws,
-    'p': gpk,
-}
-draw_sprite_2x(lz, 404, 326, SPR_GRAY_SLEEP, CMAP_GRAY)
+draw_sprite_1x(lz, 232, 338, SPR_CREAM_SLEEP, fase=FASE)
+draw_sprite_1x(lz, 408, 338, SPR_GRAY_SLEEP, fase=FASE)
 
 # Poste rascador detras a la derecha (x=462, y=236..308)
 s0, s1, s2, s3 = PAL['sisal']

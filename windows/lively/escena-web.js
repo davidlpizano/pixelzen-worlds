@@ -1,5 +1,5 @@
 (() => {
-  const TEMAS_DISPONIBLES = ['fittoa', 'continente-demoniaco', 'hunter-x-hunter', 'black-clover', 'spiderman-miles-morales', 'solo-leveling', 'demon-slayer', 'stranger-things', 'harry-potter', 'naruto', 'jujutsu-kaisen', 'attack-on-titan', 'one-piece', 'dragon-ball-z', 'cyberpunk-edgerunners', 'terraza-michis'];
+  const TEMAS_DISPONIBLES = ['fittoa', 'continente-demoniaco', 'hunter-x-hunter', 'black-clover', 'spiderman-miles-morales', 'solo-leveling', 'demon-slayer', 'stranger-things', 'harry-potter', 'naruto', 'jujutsu-kaisen', 'attack-on-titan', 'one-piece', 'dragon-ball-z', 'cyberpunk-edgerunners', 'terraza-michis', 'salon-noah-maggie'];
   const params = new URLSearchParams(window.location.search);
   const canvas = document.getElementById('lienzo');
   const d = new Date();

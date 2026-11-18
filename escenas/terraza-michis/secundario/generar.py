@@ -203,39 +203,13 @@ for y in range(212, 232):
 ellipse(262, 235, 5, 5, '#fef08a')
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-from michis_sprites import SPR_CREAM_PLAY, SPR_GRAY_SIT, draw_sprite_2x  # noqa: E402
+from michis_sprites import SPR_CREAM_PLAY, SPR_GRAY_SIT, draw_sprite_1x  # noqa: E402
 
-# MICHI GRIS sentado majestuoso en la plataforma superior mirando la terraza (x=188, y=164)
-g1, g2, g0, g3, gw, gws, ge1, ge2, gpk = PAL['gray_cat']
-CMAP_GRAY = {
-    'K': '#14171d',
-    'G': g0,
-    'g': g1,
-    'l': g2,
-    'L': g3,
-    'W': gw,
-    'w': gws,
-    'A': ge1,
-    'a': ge2,
-    'P': '#0f172a',
-    'p': gpk,
-}
-draw_sprite_2x(lz, 188, 178, SPR_GRAY_SIT, CMAP_GRAY, shadow_col=None)
+# MICHI GRIS sentado majestuoso en la plataforma superior mirando la terraza (x=189, y=168)
+draw_sprite_1x(lz, 189, 171, SPR_GRAY_SIT, fase=FASE, shadow_col=None)
 
-# MICHI CREMA jugando sobre el cesped con la pelotita multicolor (x=338, y=338)
-c_dk, c_md, c_sh, c_hi, c_wh, c_whs, c_pink, c_eye = PAL['cream_cat']
-CMAP_CREAM = {
-    'k': mix(c_sh, '#1a120e', 0.45),
-    'd': c_dk,
-    'm': c_md,
-    'h': c_hi,
-    'W': c_wh,
-    'w': c_whs,
-    'p': c_pink,
-    'A': '#f59e0b',
-    'e': '#0f172a',
-}
-draw_sprite_2x(lz, 338, 338, SPR_CREAM_PLAY, CMAP_CREAM)
+# MICHI CREMA jugando sobre el cesped con la pelotita multicolor (x=340, y=340)
+draw_sprite_1x(lz, 340, 340, SPR_CREAM_PLAY, fase=FASE)
 
 # Pelotita multicolor delante de la patita del michi crema (x=292, y=328)
 ellipse(293, 335, 9, 4, '#081407', 0.45)

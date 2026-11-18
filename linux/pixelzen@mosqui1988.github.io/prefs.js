@@ -22,6 +22,7 @@ const TEMAS_BASE = [
     {id: 'dragon-ball-z', nombre: 'Dragon Ball Z · Ultra Instinto'},
     {id: 'cyberpunk-edgerunners', nombre: 'Cyberpunk: Edgerunners · Night City'},
     {id: 'terraza-michis', nombre: 'Terraza de los Michis · Siesta Zen'},
+    {id: 'salon-noah-maggie', nombre: 'Salón de Noah y Maggie · Hogar Zen'},
 ];
 
 export default class PixelZenPreferences extends ExtensionPreferences {

@@ -1,0 +1,66 @@
+{
+  "id": "salon-noah-maggie",
+  "serie": "Vida Zen · Mascotas",
+  "nombre": "Salón de Noah y Maggie · Noche de Breaking Bad",
+  "subtitulo": "Maggie con la Patita Colgando & Noah en Modo Panecillo",
+  "descripcion": "Tarde y noche tranquila en el salón: por el ventanal asoman las nubes, el sol o la luna, mientras en la tele suena Breaking Bad y Maggie descansa sobre el mueble con su patita blanca colgando junto a Noah.",
+  "sin_lago": true,
+  "cielo_fondo": "#09121c",
+  "modo_heroe": "salon_breaking_bad",
+  "modo_pajaros": "ninguno",
+  "color_pajaros": "#1c2838",
+  "modo_particulas": "hojas_mana",
+  "colores_hojas": [
+    "#fde047",
+    "#86efac",
+    "#f9a8d4",
+    "#93c5fd"
+  ],
+  "color_mana_halo": "#fbbf24",
+  "color_mana_centro": "#fef9c3",
+  "color_fuegos_halo": [
+    "#22c55e",
+    "#f59e0b"
+  ],
+  "color_fuegos_centro": [
+    "#bbf7d0",
+    "#fef3c7"
+  ],
+  "color_ventanas": "#fde68a",
+  "color_faroles_halo": "#fbbf24",
+  "color_faroles_centro": "#fffbeb",
+  "color_runas_halo": "#4ade80",
+  "color_runas_centro": "#dcfce7",
+  "color_humo_dia": "#f1f5f9",
+  "color_humo_noche": "#94a3b8",
+  "color_olas": [
+    "#86efac",
+    "#22c55e"
+  ],
+  "color_reflejo_sol": "#fef08a",
+  "color_reflejo_luna": "#e2e8f0",
+  "color_destello": "#fef9c3",
+  "citas": [
+    {
+      "sub": "Maggie · Guardiana del Mueble",
+      "es": "«La mejor postura para ver Breaking Bad es con una patita blanca colgando del borde.»",
+      "au": "Maggie"
+    },
+    {
+      "sub": "Noah · Modo Panecillo",
+      "es": "«Si no me miras, estoy dormida. Si me miras con chuches, estoy despiertísima.»",
+      "au": "Noah"
+    },
+    {
+      "sub": "Salón Zen · Hora de Manta y Tele",
+      "es": "«Dos ronroneos delante de la tele valen más que cualquier maratón de domingo.»",
+      "au": "Noah & Maggie"
+    },
+    {
+      "sub": "T4: E5 · Escopeta",
+      "es": "«Yo soy el que llama a la puerta… salvo cuando Maggie está durmiendo encima del router.»",
+      "au": "Salón de Noah y Maggie"
+    }
+  ],
+  "titulo": "Salón de Noah y Maggie"
+}

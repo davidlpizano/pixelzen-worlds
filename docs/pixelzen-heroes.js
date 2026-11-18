@@ -991,19 +991,17 @@ function createPixelZenHeroes(px) {
   function pintaMichiTerraza(cr, t, nf, aE) {
     const ti = t | 0;
     const al = Math.min(1, 0.62 + 0.38 * nf + aE * 0.30);
-    // Parpadeo periodico del Michi Gris (ojos en 334,290 y 348,290)
+    // Parpadeo periodico del Michi Gris (ojos en 344,260 y 352,264)
     if ((ti % 38) >= 35) {
-      px(cr, '#4d5563', 0.96, 334, 290, 8, 4);
-      px(cr, '#4d5563', 0.96, 348, 290, 8, 4);
-      px(cr, '#14171d', 0.95, 334, 292, 8, 2);
-      px(cr, '#14171d', 0.95, 348, 292, 8, 2);
-    } else {
-      px(cr, '#fef08a', 0.72 * al, 338, 290, 2, 2);
-      px(cr, '#fef08a', 0.72 * al, 350, 290, 2, 2);
+      px(cr, '#6e7181', 0.96, 344, 260, 5, 5);
+      px(cr, '#6e7181', 0.96, 352, 264, 5, 5);
+      px(cr, '#14171d', 0.95, 344, 262, 5, 1);
+      px(cr, '#14171d', 0.95, 352, 266, 5, 1);
+    } else if (nf > 0.35) {
+      px(cr, '#fef08a', 0.55 * al, 345, 262, 1, 1);
+      px(cr, '#fef08a', 0.55 * al, 353, 266, 1, 1);
     }
-    // Respiracion zen de la panza del Michi Crema y destello en la pelotita multicolor
-    const breath = Math.round(Math.sin(t * 0.14));
-    px(cr, '#eee6dc', 0.45, 178, 342 + breath, 12, 4);
+    // Destello en la pelotita multicolor y motitas de luz
     if ((ti % 16) < 4) px(cr, '#ffffff', 0.85, 122, 296, 2, 2);
     for (let i = 0; i < 6; i++) {
       const fx = (110 + i * 62 + Math.round(Math.sin(t * 0.08 + i * 1.4) * 14));
@@ -1018,10 +1016,12 @@ function createPixelZenHeroes(px) {
     // Pompon colgando balanceandose
     const sw = Math.round(Math.sin(t * 0.16) * 3);
     px(cr, '#fef08a', 0.90, 259 + sw, 232, 6, 6);
-    // Parpadeo del Michi Gris arriba en el rascador (174,136 y 190,136)
+    // Parpadeo del Michi Gris arriba en el rascador (168,111 y 180,111)
     if ((ti % 42) >= 39) {
-      px(cr, '#4d5563', 0.95, 174, 136, 6, 2);
-      px(cr, '#4d5563', 0.95, 190, 136, 6, 2);
+      px(cr, '#6e7181', 0.96, 168, 111, 7, 5);
+      px(cr, '#6e7181', 0.96, 180, 111, 7, 5);
+      px(cr, '#14171d', 0.95, 168, 113, 7, 1);
+      px(cr, '#14171d', 0.95, 180, 113, 7, 1);
     }
     for (let i = 0; i < 6; i++) {
       const fx = 90 + i * 64 + Math.round(Math.sin(t * 0.09 + i) * 12);
@@ -1042,6 +1042,58 @@ function createPixelZenHeroes(px) {
       const fx = 210 + i * 54 + Math.round(Math.sin(t * 0.08 + i) * 10);
       const fy = 264 + ((i * 9) % 24) + Math.round(Math.cos(t * 0.12 + i) * 5);
       px(cr, '#fde047', 0.72 * al, fx, fy, 2, 2);
+    }
+  }
+
+  function pintaSalonBreakingBad(cr, t, nf, aE) {
+    const ti = t | 0;
+    const al = Math.min(1, 0.62 + 0.38 * nf + aE * 0.30);
+    // Brillo sutil de la TV de Breaking Bad + LEDs del router
+    const tvPulse = 0.55 + 0.45 * Math.sin(t * 0.18);
+    px(cr, '#4ade80', 0.16 * al * tvPulse, 246, 72, 204, 118);
+    if ((ti % 10) < 5) px(cr, '#86efac', 0.90, 532 + ((ti % 4) * 8), 374, 2, 1);
+    // Parpadeo de Maggie (418,265 y 436,274) y de Noah (115,235 y 132,236)
+    if ((ti % 40) >= 37) {
+      px(cr, '#484e5a', 0.96, 418, 265, 7, 6);
+      px(cr, '#484e5a', 0.96, 436, 274, 6, 4);
+      px(cr, '#14171d', 0.95, 418, 268, 7, 1);
+      px(cr, '#14171d', 0.95, 436, 276, 6, 1);
+    }
+    if ((ti % 54) >= 51) {
+      px(cr, '#bfa99b', 0.96, 115, 235, 5, 3);
+      px(cr, '#bfa99b', 0.96, 132, 236, 5, 3);
+      px(cr, '#14171d', 0.95, 115, 236, 5, 1);
+      px(cr, '#14171d', 0.95, 132, 237, 5, 1);
+    }
+  }
+
+  function pintaSalonMiro(cr, t, nf, aE) {
+    const ti = t | 0;
+    const al = Math.min(1, 0.62 + 0.38 * nf + aE * 0.30);
+    // Pulso calido de la lampara de pinza sobre el cuadro Miro
+    const pulse = 0.70 + 0.30 * Math.sin(t * 0.15);
+    if (nf > 0.25) px(cr, '#fef08a', 0.55 * al * pulse, 286, 79, 8, 6);
+    // Parpadeo de Maggie (334,205 y 349,205) y parpadeo lento de Noah (204,211 y 220,211)
+    if ((ti % 36) >= 33) {
+      px(cr, '#484e5a', 0.96, 334, 205, 6, 4);
+      px(cr, '#484e5a', 0.96, 349, 205, 6, 4);
+      px(cr, '#14171d', 0.95, 334, 207, 6, 1);
+      px(cr, '#14171d', 0.95, 349, 207, 6, 1);
+    }
+    if ((ti % 60) >= 55) {
+      px(cr, '#b7a396', 0.96, 204, 211, 5, 2);
+      px(cr, '#b7a396', 0.96, 220, 211, 5, 2);
+      px(cr, '#14171d', 0.95, 204, 212, 5, 1);
+      px(cr, '#14171d', 0.95, 220, 212, 5, 1);
+    }
+  }
+
+  function pintaSalonSiesta(cr, t, nf, aE) {
+    const al = Math.min(1, 0.60 + 0.40 * nf + aE * 0.30);
+    for (let i = 0; i < 6; i++) {
+      const fx = 60 + i * 74 + Math.round(Math.sin(t * 0.08 + i) * 10);
+      const fy = 172 + ((i * 11) % 36) + Math.round(Math.cos(t * 0.1 + i) * 6);
+      px(cr, '#fde047', (0.45 + 0.45 * Math.abs(Math.sin(t * 0.2 + i))) * al, fx, fy, 2, 2);
     }
   }
 
@@ -1075,6 +1127,9 @@ function createPixelZenHeroes(px) {
     michi_terraza: pintaMichiTerraza,
     michi_rascador: pintaMichiRascador,
     michi_bloqueo: pintaMichiBloqueo,
+    salon_breaking_bad: pintaSalonBreakingBad,
+    salon_miro: pintaSalonMiro,
+    salon_siesta: pintaSalonSiesta,
   };
 
   function pintaHeroeAtras(cr, modo, t, nf) {

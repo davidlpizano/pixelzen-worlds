@@ -535,6 +535,7 @@ function Cargar-Temas {
         'dragon-ball-z'           = @{ serie = 'Dragon Ball Z'; titulo = 'Ultra Instinto en Namek' }
         'cyberpunk-edgerunners'   = @{ serie = 'Cyberpunk: Edgerunners'; titulo = 'Night City & Sandevistan' }
         'terraza-michis'          = @{ serie = 'Vida Zen · Mascotas'; titulo = 'Terraza de los Michis' }
+        'salon-noah-maggie'       = @{ serie = 'Vida Zen · Mascotas'; titulo = 'Salón de Noah y Maggie' }
     }
     $lista = @()
     if (Test-Path $TemasDir) {

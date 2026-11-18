@@ -1,0 +1,56 @@
+{
+  "id": "salon-noah-maggie",
+  "serie": "Vida Zen · Mascotas",
+  "nombre": "Cojín de la Siesta · Noah & Maggie",
+  "subtitulo": "Altar del Cojín Tejido & Siesta Panza Arriba",
+  "descripcion": "Escena de bloqueo junto al gran ventanal con guirnalda cálida: Noah descansa hecha un bollito perfecto sobre el cojín crema de rombos, mientras Maggie se estira panza arriba en la alfombra bajo el cielo estrellado.",
+  "sin_lago": true,
+  "cielo_fondo": "#070f18",
+  "modo_heroe": "salon_siesta",
+  "modo_pajaros": "ninguno",
+  "color_pajaros": "#1c2838",
+  "modo_particulas": "hojas_mana",
+  "colores_hojas": [
+    "#fde047",
+    "#f9a8d4",
+    "#86efac",
+    "#93c5fd"
+  ],
+  "color_mana_halo": "#fbbf24",
+  "color_mana_centro": "#fef9c3",
+  "color_fuegos_halo": [
+    "#fbbf24",
+    "#f472b6"
+  ],
+  "color_fuegos_centro": [
+    "#fffbeb",
+    "#fce7f3"
+  ],
+  "color_ventanas": "#fde68a",
+  "color_faroles_halo": "#fbbf24",
+  "color_faroles_centro": "#fffbeb",
+  "color_runas_halo": "#fde047",
+  "color_runas_centro": "#fef9c3",
+  "color_humo_dia": "#f1f5f9",
+  "color_humo_noche": "#94a3b8",
+  "color_olas": [
+    "#86efac",
+    "#22c55e"
+  ],
+  "color_reflejo_sol": "#fef08a",
+  "color_reflejo_luna": "#e2e8f0",
+  "color_destello": "#fef9c3",
+  "citas": [
+    {
+      "sub": "Cojín de Rombos · Noah",
+      "es": "«La técnica ancestral del panecillo requiere un cojín mullido y cero interrupciones.»",
+      "au": "Noah"
+    },
+    {
+      "sub": "Alfombra Nocturna · Maggie",
+      "es": "«Barriguita blanca al aire libre: señal oficial de hogar seguro y feliz.»",
+      "au": "Maggie"
+    }
+  ],
+  "titulo": "Cojín de la Siesta · Noah & Maggie"
+}

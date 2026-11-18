@@ -15,7 +15,8 @@
     "one-piece": ["#881337", "#F43F5E", "#FACC15"],
     "dragon-ball-z": ["#075985", "#38BDF8", "#FACC15"],
     "cyberpunk-edgerunners": ["#713F12", "#FACC15", "#22D3EE"],
-    "terraza-michis": ["#2E5A27", "#72C48C", "#FACC15"]
+    "terraza-michis": ["#2E5A27", "#72C48C", "#FACC15"],
+    "salon-noah-maggie": ["#78350F", "#FBBF24", "#4ADE80"]
   },
   "canvas_themes": {
     "fittoa": ["#e6c06e", "#72c48c", "rgba(230, 192, 110, 0.34)"],
@@ -33,7 +34,8 @@
     "one-piece": ["#f43f5e", "#facc15", "rgba(244, 63, 94, 0.40)"],
     "dragon-ball-z": ["#38bdf8", "#facc15", "rgba(56, 189, 248, 0.42)"],
     "cyberpunk-edgerunners": ["#facc15", "#22d3ee", "rgba(250, 204, 21, 0.42)"],
-    "terraza-michis": ["#72c48c", "#facc15", "rgba(114, 196, 140, 0.38)"]
+    "terraza-michis": ["#72c48c", "#facc15", "rgba(114, 196, 140, 0.38)"],
+    "salon-noah-maggie": ["#fbbf24", "#4ade80", "rgba(251, 191, 36, 0.38)"]
   },
   "world_audio": {
     "fittoa": ["Lullaby of Fittoa · OST", "84 BPM · ACOUSTIC LO-FI", "VOL 68%"],
@@ -51,7 +53,8 @@
     "one-piece": ["Drums of Liberation · Nika", "126 BPM · TAMBORES", "VOL 85%"],
     "dragon-ball-z": ["Ultimate Battle · UI OST", "145 BPM · ROCK SINFÓNICO", "VOL 88%"],
     "cyberpunk-edgerunners": ["I Really Want to Stay · OST", "124 BPM · SYNTHWAVE", "VOL 84%"],
-    "terraza-michis": ["Purr & Sunbeam · Terrace Mix", "76 BPM · PURR LO-FI", "VOL 72%"]
+    "terraza-michis": ["Purr & Sunbeam · Terrace Mix", "76 BPM · PURR LO-FI", "VOL 72%"],
+    "salon-noah-maggie": ["Noah & Maggie · Cozy Living", "72 BPM · LIVING LO-FI", "VOL 70%"]
   },
   "citas_defecto": [
     {"sub": "K407 · Aldea de Buena", "es": "«Daré todo de mí en este mundo, sin arrepentimientos.»", "au": "Rudeus"}
