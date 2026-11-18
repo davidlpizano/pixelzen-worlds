@@ -1,7 +1,7 @@
 # PixelZen Worlds
 
 [![Release](https://img.shields.io/github/v/release/davidlpizano/pixelzen-worlds?label=Versi%C3%B3n&color=54ded4)](https://github.com/davidlpizano/pixelzen-worlds/releases/latest)
-[![Mundos](https://img.shields.io/badge/Mundos-16%20%C3%97%203%20pantallas%20(48%20escenas)-e6b45a)](#mundos-incluidos-monitor-1--monitor-2--bloqueo)
+[![Mundos](https://img.shields.io/badge/Mundos-17%20%C3%97%203%20pantallas%20(51%20escenas)-e6b45a)](#mundos-incluidos-monitor-1--monitor-2--bloqueo)
 [![Tarjetas HUD](https://img.shields.io/badge/HUD%20Flotante-9%20tarjetas%20click--through-72c48c)](#panel-hud-flotante-9-tarjetas)
 [![Licencia](https://img.shields.io/badge/Licencia-GPL--3.0-1e2b4a)](LICENSE)
 
@@ -38,7 +38,7 @@ O descarga **`PixelZenWorlds-Linux-Setup.run`** desde Releases, dale permisos (`
 
 ## Características principales
 
-* **15 Universos × 3 Pantallas (45 escenas / 135 vistas en Día, Dorado y Noche)**:
+* **17 Universos × 3 Pantallas (51 escenas / 153 vistas en Día, Dorado y Noche)**:
   * **Monitor 1 (`principal`)**: escena principal animada detrás de los iconos del escritorio mediante el motor nativo C# GDI+ (`WorkerW` / `NEAREST`) o navegador/Lively/GNOME.
   * **Monitor 2 (`secundario`)**: continuación geográfica o narrativa del mismo mundo (o mundo independiente elegido en el estudio) sin duplicar sol ni luna entre pantallas.
   * **Pantalla de Bloqueo (`bloqueo`)**: tercer escenario ceremonial aplicable automáticamente al bloqueo de Windows desde el estudio.
@@ -51,7 +51,7 @@ O descarga **`PixelZenWorlds-Linux-Setup.run`** desde Releases, dale permisos (`
   * **Playlist & Atajos globales**: rotación automática de mundos configurable (`5–60 min`) y atajos `Ctrl+Alt+W` (mundo), `H` (HUD), `F` (clima), `P` (pausa), `E` (evento).
 * **Ciclo solar astronómico continuo**: calcula elevación y azimut reales del sol (hora real, ciclo de 24 h en 90 min, demo rápida 90 s u hora fija interactiva).
 * **Desktop Studio + Bandeja del sistema** ([`windows/PixelZenMenu.ps1`](windows/PixelZenMenu.ps1)): selector visual por series/mundos/pantallas, vistas previas Día/Dorado/Noche, menú multimedia/clima en bandeja y buscador de actualizaciones.
-* **Sitio web completo y visor offline** ([`docs/`](docs/) + [`temas-bundle.js`](docs/temas-bundle.js)): demo en vivo para 1–3 pantallas, comparador interactivo en pantalla dividida, exportador **4K / 1080p PNG**, galería filtrable de 45 escenas y centro de instalación.
+* **Sitio web completo y visor offline** ([`docs/`](docs/) + [`temas-bundle.js`](docs/temas-bundle.js)): demo en vivo para 1–3 pantallas, comparador interactivo en pantalla dividida, exportador **4K / 1080p PNG**, galería filtrable de 51 escenas y centro de instalación.
 
 ---
 
@@ -93,6 +93,7 @@ En Windows ([`windows/PixelZenHud.ps1`](windows/PixelZenHud.ps1)) las tarjetas f
 | **Ultra Instinto en Namek** (`dragon-ball-z`) · *Dragon Ball Z* | ![DBZ M1](docs/previews/dragon-ball-z/dorado.png)<br/>**Namek en Colapso**: Goku Ultra Instinto Dominado chocando su Kamehameha Divino vs Freezer Dorado. | ![DBZ M2](docs/previews/dragon-ball-z/m2-dorado.png)<br/>**Dragón Shenron**: el dragón sagrado ascendiendo entre relámpagos sobre las 7 Bolas de Dragón. | ![DBZ M3](docs/previews/dragon-ball-z/m3-dorado.png)<br/>**Kame House**: isla del Maestro Roshi, Nube Kinton con el Bastón Mágico y la Bola de 4 Estrellas. |
 | **Night City & Sandevistan** (`cyberpunk-edgerunners`) · *Cyberpunk: Edgerunners* | ![Cyber M1](docs/previews/cyberpunk-edgerunners/dorado.png)<br/>**Corpo Plaza**: Arasaka, Quadra Turbo-R, David con estela cromática del Sandevistan y Lucy con su monofilo. | ![Cyber M2](docs/previews/cyberpunk-edgerunners/m2-dorado.png)<br/>**La Luna**: David y Lucy sentados en la azotea frente a la Luna plateada y el monorraíl NCART. | ![Cyber M3](docs/previews/cyberpunk-edgerunners/m3-dorado.png)<br/>**Callejón Afterlife**: mural grafiteado ER en verde ácido e implante espinal Apogee Sandevistan. |
 | **Terraza de los Michis** (`terraza-michis`) · *Vida Zen · Mascotas* | ![Michis M1](docs/previews/terraza-michis/dorado.png)<br/>**Siesta en el Césped**: Michi Crema panza arriba, Michi Gris de ojos ámbar, pelotita multicolor y tarima de madera. | ![Michis M2](docs/previews/terraza-michis/m2-dorado.png)<br/>**Torre Rascador y Pelotita**: rascador de dos niveles con pompón, macetas y ambos michis jugando en la terraza. | ![Michis M3](docs/previews/terraza-michis/m3-dorado.png)<br/>**Santuario de la Pelotita**: cojín ceremonial con huellas luminosas, farol cálido y ambos michis durmiendo bajo las estrellas. |
+| **Salón de Noah y Maggie** (`salon-noah-maggie`) · *Vida Zen · Mascotas* | ![Salón M1](docs/previews/salon-noah-maggie/dorado.png)<br/>**Noche de Breaking Bad**: salón con ventanal animado, tele reproduciendo *Breaking Bad* y Maggie con su patita blanca colgando junto a Noah en modo panecillo. | ![Salón M2](docs/previews/salon-noah-maggie/m2-dorado.png)<br/>**Rincón del Miró**: posado oficial de Noah y Maggie en el mueble blanco junto al cuadro de Miró y la lamparita de pinza. | ![Salón M3](docs/previews/salon-noah-maggie/m3-dorado.png)<br/>**Cojín de la Siesta**: Noah hecha un bollito sobre el cojín crema tejido de rombos y Maggie estirada panza arriba bajo la guirnalda cálida. |
 
 ---
 
@@ -101,7 +102,7 @@ En Windows ([`windows/PixelZenHud.ps1`](windows/PixelZenHud.ps1)) las tarjetas f
 ```text
 pixelzen-worlds/
 ├── VERSION                     # Versión de compilación y Releases
-├── escenas/                    # 15 mundos × 3 variantes (generar.py, tema.json, preview/)
+├── escenas/                    # 17 mundos × 3 variantes (generar.py, tema.json, preview/)
 │   ├── _plantilla/             # Plantilla modular base
 │   └── <mundo>/                # principal + secundario/ + bloqueo/
 ├── src/                        # Motor procedural (pz_lib.py, pz_detalles.py, construir.py) + pixelzen-canvas.js
@@ -117,7 +118,7 @@ pixelzen-worlds/
 ### Compilar escenas, verificar y sincronizar todo
 
 ```powershell
-# Compilar las 45 escenas y 135 previews desde src/:
+# Compilar las 51 escenas y 153 previews desde src/:
 python src/construir.py
 
 # Ejecutar la suite de verificación:
